@@ -7,3 +7,9 @@
   and basic process management (`ps`, `top`)
 
 ## Day 2
+- Studied the Linux file system hierarchy: `/`, `/home`, `/etc`, `/var`,
+  `/bin`, `/usr`, `/tmp` — what each directory is for and why the structure
+  matters for navigating a system quickly
+- Learned how to use built-in help commands: `man <command>`,
+  `<command> --help`, and `whatis <command>` to look up usage without
+  needing to search online
