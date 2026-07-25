@@ -24,3 +24,15 @@
   pushing to repositories (the same tool behind this GitHub repo)
 - Learned `pip` — installing and managing Python packages, which will be
   useful later for security scripts and automation
+
+## Day 4 
+- Learned how to manage running processes in Linux:
+  - `kill` — stop a specific process using its process ID (PID)
+  - `killall` — stop all processes matching a given name
+  - `stop` / `Ctrl+Z` — pause (suspend) a running process
+  - `start` / `fg` — resume a paused process, bringing it back to the
+    foreground
+  - `reset` — restore the terminal to its default state when the display
+    gets messed up (e.g. after `cat`-ing a binary file)
+- Practiced identifying process IDs with `ps` before targeting them with
+  `kill`, instead of guessing
