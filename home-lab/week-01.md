@@ -36,3 +36,22 @@
     gets messed up (e.g. after `cat`-ing a binary file)
 - Practiced identifying process IDs with `ps` before targeting them with
   `kill`, instead of guessing
+  
+## Day 5 
+- Learned text searching/processing commands:
+  - `grep` — search for specific text patterns inside files (critical for
+    log analysis later)
+  - `find` — locate files/directories by name, type, or other attributes
+  - `head` / `tail` — view the first/last lines of a file (useful for
+    checking recent log entries without opening the whole file)
+  - `wc` — count lines, words, and characters in a file
+- Learned redirection and pipes:
+  - `>` — send command output to a file (overwrite)
+  - `>>` — append command output to a file
+  - `|` — chain commands together, e.g. `cat file.txt | grep error` to
+    filter output from one command through another
+- Learned users & groups basics:
+  - `useradd` — create a new user
+  - `usermod` — modify an existing user's settings
+  - `groups` — check which groups a user belongs to
+  - `/etc/passwd` — the file listing all system users and their basic info
