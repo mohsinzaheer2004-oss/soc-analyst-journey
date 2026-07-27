@@ -55,3 +55,31 @@
   - `usermod` — modify an existing user's settings
   - `groups` — check which groups a user belongs to
   - `/etc/passwd` — the file listing all system users and their basic info
+
+## Day 6 
+- Learned disk/storage commands:
+  - `df -h` — check disk space usage in human-readable format
+  - `du -sh` — check the size of a specific file/folder
+  - `mount` — view or attach storage devices/partitions to the filesystem
+- Learned basic networking commands:
+  - `ping` — test connectivity to another host
+  - `ifconfig` / `ip a` — view network interfaces and IP addresses
+  - `netstat` / `ss` — view active network connections and listening ports
+  - `curl` — make requests to URLs/APIs directly from the terminal
+- Learned where Linux logs live:
+  - `/var/log/` — the main directory for system logs
+  - `auth.log` — authentication/login events
+  - `syslog` — general system activity log
+- Learned `systemctl` — starting, stopping, and checking the status of
+  services running on the system
+
+## Notes / takeaways
+This closes out the core Linux fundamentals — filesystem navigation, file
+system hierarchy, help commands, package management, git, process control,
+text processing, pipes/redirection, users & groups, disk/storage, basic
+networking commands, and log locations. Enough of a foundation to move
+into networking concepts next.
+
+## Next up
+Phase 1: Networking — OSI Model, TCP/IP, DNS, DHCP, HTTP/HTTPS, subnetting,
+firewalls/VPNs/proxies
