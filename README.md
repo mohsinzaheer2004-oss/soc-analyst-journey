@@ -10,6 +10,7 @@ real-world alert triage).
 
 ## Structure
 - `home-lab/` — weekly logs of my home lab setup and practice sessions
+- `networking/` — weekly logs covering networking fundamentals
 - `tryhackme-writeups/` — writeups from TryHackMe free rooms
 - `letsdefend-cases/` — alert triage case notes from LetsDefend
 - `scripts/` — small Python/PowerShell scripts as I learn automation
