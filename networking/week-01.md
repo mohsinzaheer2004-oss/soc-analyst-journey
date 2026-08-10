@@ -45,4 +45,17 @@
 - Key takeaway: OSI is the theoretical/teaching model, TCP/IP is the model
   actually used on real networks — but both describe the same underlying
   process of getting data from one device to another
+
+## Day 4
+- Completed the "OSI Model" room on TryHackMe ✅ (10 tasks, 224 points, streak: 1)
+- Learned the OSI Model — the 7-layer framework for how data moves across
+  a network:
+  1. Physical — raw transmission of bits over cables/wireless
+  2. Data Link — handles MAC addresses and framing (e.g. switches)
+  3. Network — handles IP addressing and routing (e.g. routers)
+  4. Transport — handles reliable delivery, using TCP or UDP
+  5. Session — manages connections/sessions between devices
+  6. Presentation — handles data formatting, encryption/decryption
+  7. Application — where actual applications interact with the network
+     (HTTP, DNS, etc.)
     
