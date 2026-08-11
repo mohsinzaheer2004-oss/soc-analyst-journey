@@ -58,4 +58,17 @@
   6. Presentation — handles data formatting, encryption/decryption
   7. Application — where actual applications interact with the network
      (HTTP, DNS, etc.)
+
+## Day 5
+- Completed the "Packets & Frames" room on TryHackMe ✅ (6 tasks, 80 points, streak: 2)
+- Learned how data is broken down and transmitted across a network:
+  - Packets — data is split into smaller units at the Network layer, each
+    packet carrying source/destination IP addresses
+  - Frames — packets get wrapped into frames at the Data Link layer,
+    adding source/destination MAC addresses for local delivery
+  - Encapsulation — as data moves down the OSI layers, each layer adds
+    its own header (and sometimes trailer) around the data — this whole
+    process is called encapsulation, and it's reversed (de-encapsulation)
+    on the receiving end
+     
     
