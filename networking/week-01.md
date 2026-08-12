@@ -70,5 +70,15 @@
     its own header (and sometimes trailer) around the data — this whole
     process is called encapsulation, and it's reversed (de-encapsulation)
     on the receiving end
-     
-    
+
+## Day 6
+- Completed the "Extending Your Network" room on TryHackMe ✅ (6 tasks, 88 points, streak: 2)
+- Learned how a LAN connects safely to the internet:
+  - NAT (Network Address Translation) — translates private internal IP
+    addresses to a single public IP so multiple devices on a LAN can
+    share one internet connection
+  - Firewalls — filter incoming/outgoing traffic based on rules, deciding
+    what's allowed in and out of a network
+  - Why these matter together: NAT hides internal network structure from
+    the outside world, while firewalls control what traffic is permitted
+    to cross that boundary
